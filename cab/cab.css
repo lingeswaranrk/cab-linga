@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+   background-image: url('images.jfif');
+   background-size: 100% 200%;
+   background-repeat: no-repeat;
+   
+
+   
+
+
+}
+.one{
+    z-index: 1;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 70pt;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+   
+
+
+   
+}
+@keyframes example{
+    0%{color: red;}
+    25%{color: yellow;}
+    50% {color: white;}
+    75%{color: green;}
+    100%{color: red;}
+}
+ 
+  a{
+    
+    color:red;
+    text-decoration: none;
+    margin-left: 10px
+   
+    
+    }
+    .welcom
+    {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: x-large;
+        color: red;
+       
+    }
+    .sa{
+        display: flex;
+        justify-content: flex-end;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        
+    }
+    
+
